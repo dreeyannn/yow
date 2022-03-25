@@ -1,0 +1,216 @@
+html {
+  background-image: url(img/bipress.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
+}
+/*1. Header/Title with a Login button in the center and a little description below the Login button*/
+.headings {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.headings button {
+  font-family: cursive;
+  color: black;
+  text-decoration: none;
+  border: 10px black;
+  border-radius: 25px;
+  background-color: aqua;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+/*1. End of the Header/Title etc*/
+
+/*2. Starts of nav*/
+.container-nav {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  text-align: center;
+  list-style-type: none;
+}
+.nav li {
+  display: inline-block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.nav a {
+  text-decoration: none;
+}
+a.home:link,
+a.home:visited {
+  letter-spacing: 0.1em;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 8px;
+  display: infinite-block;
+  opacity: 0.7;
+}
+a.home:hover {
+  letter-spacing: 0.1em;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 8px;
+  display: infinite-block;
+  opacity: 0.7;
+}
+/*2. End of nav*/
+
+/*1A. This is for the login form*/
+.container-login {
+  display: none;
+}
+#Log-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 410px;
+  padding: 30px;
+}
+.close-button {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.button-solid {
+  border: none;
+}
+.button-solid:hover {
+  cursor: pointer;
+}
+.text {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+form {
+  margin-top: -20px;
+}
+.data {
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+.data label {
+  font-size: 18px;
+}
+.data input {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid silver;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.data input:focus {
+  border-color: #3498db;
+  border-bottom-width: 2px;
+}
+.forgot-pass {
+  margin-top: -8px;
+}
+.forgot-pass a {
+  color: #3498db;
+  text-decoration: none;
+}
+.forgot-pass a:hover {
+  text-decoration: underline;
+}
+.button {
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  z-index: -1;
+  transition: all 0.4s;
+  background: -webkit-linear-gradient(
+    right,
+    #56d8e4,
+    #9f01ea,
+    #56d8e4,
+    #9f01ea
+  );
+}
+.inner {
+  left: 0;
+}
+.button button {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.signup-link {
+  text-align: center;
+}
+.signup-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
+/*1A. End of the Login form*/
+
+/*3. Starts of Images Gallery*/
+.gallery-container {
+  text-align: center;
+  color: white;
+}
+.gallery {
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+  text-decoration: underline;
+}
+div.desc {
+  padding: 5px 5px;
+}
+/*3. End of Images Gallery*/
+
+/*4. Text at the bottom*/
+.created {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: medium;
+}
+.created a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-size: medium;
+}
+.created a:hover {
+  text-decoration: underline;
+}
+/*4. End of the text*/
